@@ -10,5 +10,5 @@ package com.mycompany.mavenproject1;
  * @author saukashy
  */
 public class SeleniumTests {
-    
+    int x =0;
 }
