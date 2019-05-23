@@ -5,13 +5,20 @@
  */
 package com.mycompany.mavenproject1;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
  *
  * @author saukashy
  */
-@Test
+
 public class SeleniumTests {
     int x =0;
+    
+    @Test
+    public static void test1() {
+    
+        Assert.assertEquals(1,1l);
+    }
 }
