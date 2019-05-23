@@ -5,10 +5,13 @@
  */
 package com.mycompany.mavenproject1;
 
+import org.testng.annotations.Test;
+
 /**
  *
  * @author saukashy
  */
+@Test
 public class SeleniumTests {
     int x =0;
 }
