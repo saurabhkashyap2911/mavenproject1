@@ -40,7 +40,7 @@
              <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M3</version>
+        <version>3.0.0-M1</version>
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
@@ -51,7 +51,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>3.0.0-M3</version>
+        <version>3.0.0-M1</version>
         <configuration>
         <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
          </configuration>	
