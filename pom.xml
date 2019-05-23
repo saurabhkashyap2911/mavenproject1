@@ -33,7 +33,6 @@
         </configuration>
       </plugin>
     </plugins>
-</build>
 
 <dependency>
   <groupId>org.testng</groupId>
@@ -41,4 +40,7 @@
   <version>6.8</version>
   <scope>test</scope>
 </dependency>
+
+</build>
+
 </project>
