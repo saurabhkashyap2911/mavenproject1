@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class SeleniumTests {
     int x =0;
-    int y=0;
+    int y=1;
     
     
     @Test
