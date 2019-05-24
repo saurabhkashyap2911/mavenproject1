@@ -15,10 +15,11 @@ import org.testng.annotations.Test;
 
 public class SeleniumTests {
     int x =0;
+    int y=0;
     
     @Test
     public static void test1() {
     
-        Assert.assertEquals(1,1l);
+        Assert.assertEquals(1,1);
     }
 }
